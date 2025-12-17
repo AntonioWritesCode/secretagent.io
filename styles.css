@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  h1, p {
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 10px;
+    }
+
+    #canvas {
+        width: 100%;;
+    }
+    
+}
